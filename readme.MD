@@ -12,7 +12,7 @@ Clonar o Repositório:
 Clone o repositório do seu backend para sua máquina.
 
         git clone https://seurepositorio.git
-        cd nome-do-seu-backend
+        cd frontendCOGEP
 
 Instalar Dependências:
     Instale as dependências do projeto.
