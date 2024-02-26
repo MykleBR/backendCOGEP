@@ -11,7 +11,7 @@ Passos:
 Clonar o Repositório:
 Clone o repositório do seu backend para sua máquina.
 
-        git clone https://seurepositorio.git
+        git clone https://github.com/MykleBR/backendCOGEP.git
         cd backendCOGEP
 
 Instalar Dependências:
