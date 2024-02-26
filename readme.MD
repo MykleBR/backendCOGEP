@@ -207,5 +207,5 @@ Servidor (src/index.ts):
 
     export default server;
 
-Este guia fornece uma visão geral do seu backend, destacando os principais pontos em cada arquivo.
+Este guia fornece uma visão geral do backend, destacando os principais pontos em cada arquivo.
 
