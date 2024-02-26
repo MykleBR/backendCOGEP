@@ -1,47 +1,35 @@
 Pré-requisitos:
 
-    Node.js e npm:
-        Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em nodejs.org.
+Node.js e npm:
+    Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em nodejs.org.
 
-    Banco de Dados MySQL:
-        Garanta que você tenha um servidor MySQL em execução. Certifique-se de criar o banco de dados dbteste.
+Banco de Dados MySQL:
+    Garanta que você tenha um servidor MySQL em execução. Certifique-se de criar o banco de dados dbteste.
 
 Passos:
 
-    Clonar o Repositório:
-        Clone o repositório do seu backend para sua máquina.
-
-    bash
+Clonar o Repositório:
+Clone o repositório do seu backend para sua máquina.
 
         git clone https://seurepositorio.git
         cd nome-do-seu-backend
 
 Instalar Dependências:
-
     Instale as dependências do projeto.
-
-    bash
 
         npm install
 
 Configurar o Banco de Dados:
-
     Certifique-se de que o arquivo src/config/database.ts esteja configurado corretamente com as credenciais do seu banco de dados MySQL.
 
 Executar Migrations:
-
     Execute as migrações para criar as tabelas no banco de dados.
-
-    bash
 
         npx sequelize-cli db:migrate
 
 Iniciar o Servidor:
-
     Inicie o servidor backend.
-
-    bash
-
+        
         npm start
 
 O servidor deve estar rodando na porta especificada (por padrão, na porta 3000).
